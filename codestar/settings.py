@@ -28,7 +28,7 @@ GLOBAL_TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY",)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # Make ALLOWED_HOSTS safe for development (when DEBUG=True) and explicit otherwise
 if DEBUG:
