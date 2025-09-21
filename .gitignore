@@ -34,3 +34,5 @@ config.py
 
 # Logs
 *.log
+
+blog/fixtures/
