@@ -1,0 +1,36 @@
+# Environment files - NEVER commit these!
+env.py
+.env
+*.env
+
+# Database files
+db.sqlite3
+*.db
+*.sqlite
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secret files
+secrets.py
+config.py
+
+# Logs
+*.log
